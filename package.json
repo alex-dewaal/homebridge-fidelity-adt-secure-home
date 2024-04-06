@@ -1,5 +1,5 @@
 {
-    "name": "homebridge-fidelity-adt",
+    "name": "homebridge-fidelity-adt-secure-home",
     "description": "Homebridge plugin for Fidelity ADT SecureHome",
     "version": "0.1.0",
     "license": "MIT",
@@ -15,7 +15,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/alex-dewaal/homebridge-fidelity-adt"
+        "url": "git://github.com/alex-dewaal/homebridge-fidelity-adt-secure-home"
     },
     "engines": {
         "node": "^18.17.0 || ^20.9.0",
