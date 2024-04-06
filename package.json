@@ -1,0 +1,34 @@
+{
+    "name": "homebridge-fidelity-adt",
+    "description": "Homebridge plugin for Fidelity ADT SecureHome",
+    "version": "0.1.0",
+    "license": "MIT",
+    "author": {
+        "name": "alex-dewaal"
+    },
+    "main": "",
+    "keywords": [
+        "homebridge-plugin",
+        "ADT",
+        "Fidelity ADT",
+        "SecureHome"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/alex-dewaal/homebridge-fidelity-adt"
+    },
+    "engines": {
+        "node": "^18.17.0 || ^20.9.0",
+        "homebridge": "^1.6.0"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "node-cache": "^4.2.0",
+        "request": "^2.88.0",
+        "request-promise": "^4.2.2"
+    },
+    "devDependencies": {
+        "homebridge": "^1.6.0",
+        "hap-nodejs": "^0.4.47"
+    }
+}
