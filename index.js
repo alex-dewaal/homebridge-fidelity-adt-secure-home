@@ -50,7 +50,7 @@ smartSecurityPlatform.prototype.initialize = function (state) {
     this.log("Initializing platform with %s accessories", this.platformAccessories.length);
     this.log("Found %s new platform accessories", newAccessories.length);
 
-    this.api.registerPlatformAccessories("homebridge-adt-smart-security", "ADT", newAccessories.map(accessory => accessory.getAccessory()));
+    this.api.registerPlatformAccessories("homebridge-fidelity-adt-secure-home", "ADT", newAccessories.map(accessory => accessory.getAccessory()));
 
     this.setupCameras(state.cameras);
 
@@ -65,5 +65,5 @@ smartSecurityPlatform.prototype.updateState = function (state) {
 module.exports = function (homebridge) {
     Accessory = homebridge.platformAccessory;
     hap = homebridge.hap;
-    homebridge.registerPlatform("homebridge-fidelity-adt", "ADT", smartSecurityPlatform, true);
+    homebridge.registerPlatform("homebridge-fidelity-adt-secure-home", "ADT", smartSecurityPlatform, true);
 };

@@ -6,7 +6,7 @@
     "author": {
         "name": "alex-dewaal"
     },
-    "main": "",
+    "main": "index.js",
     "keywords": [
         "homebridge-plugin",
         "ADT",
